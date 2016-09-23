@@ -27,7 +27,10 @@ include('session1.php');
 				$conn = mysqli_connect('localhost','root','mysql','mysql');
 				mysqli_select_db($conn,"mysql");
 
-				$query = "SELECT date,members,items,paid,amount,per_head,unselected_member,unselected_amount FROM lunch_system WHERE members LIKE '%".$_SESSION['login_user']."%'";
+
+				$query = "SELECT date,members,items,paid,amount,per_head,unselected_member,unselected_amount FROM lunch_system 
+						  WHERE members LIKE '%".$_SESSION['login_user']."%' 
+						  OR unselected_member LIKE '%".$_SESSION['login_user']."%' ";
 					
 				$result = mysqli_query($conn,$query);  
 				

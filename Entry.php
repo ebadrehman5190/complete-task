@@ -118,7 +118,7 @@
         </div>
         <br>
 
-        Amount of other members: <input type="button" class="add_amount" value="add_amount">
+        Amount of other members: <input type="button" class="add_amount" value="Other costumers">
         <div class="align">
             <div>
                 <div class="remove_value">
