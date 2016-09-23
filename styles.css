@@ -1,0 +1,79 @@
+    .menu{
+        margin-top: -8px;
+        margin-left: -8px;
+        border:solid;
+        width:1256px;
+        height:695px;
+    }
+    .header-bar-color{
+        background-color: #b0dfea;
+        height: 25px;
+    }
+    .header-bar{
+        margin-left: 8px;
+    }
+    .main{
+        margin-left:8px;
+        margin-top:20px;
+        width:400px;
+    }    
+    .align{
+           margin-left:15px;
+    }     
+    .history{
+       /* margin-left:5px;*/
+        text-align:left;
+        display: fixed;
+        height: 32px;
+    }       	 
+	body {
+	background-image: url("images/images.jpg");
+    background-size: 1280px 700px;
+	}
+    .error {
+    color: #FF0000;
+    }
+	.field_set{
+	 background-color:white;
+	 border:solid;
+	 width:350px;
+	 height:200px;
+	 text-align:center;
+	 margin-left:850px; 
+	 margin-top:50px;
+	 }
+    .menu .header-bar-color .header-bar .history > div:hover,
+    .menu .header-bar-color .header-bar .history > div:hover,
+    .menu .header-bar-color .header-bar .history > div:hover,
+    .menu .header-bar-color .header-bar .history > div:hover {
+        height: 25px;
+        background-color: skyblue;
+    }
+    .history-tab{
+        width: 58px;
+        float: left;
+    }
+    .member-tab{
+        width: 116px;
+        float: left;
+    }
+    .payment-detail-tab{
+        width: 110px;
+        float: left;
+    }
+    .payment-tab{
+        width: 66px;
+        float: left;
+    }
+    .field{
+        border-radius: 5%;
+        margin-left: -3px;
+        width: 400px;
+        border-style: solid;
+        border-width: 3px;
+    }
+    #logout{
+        width: 60px;
+        height: 25px;
+        float: right;
+    }
